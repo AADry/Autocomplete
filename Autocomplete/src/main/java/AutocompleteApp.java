@@ -5,7 +5,7 @@ import java.io.File;
 import java.util.*;
 
 public class AutocompleteApp {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         int target = Integer.parseInt(args[0]);
         if(target < 1 || target > 13){
             System.out.println("Столбец не найден");
